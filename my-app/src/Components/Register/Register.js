@@ -39,10 +39,10 @@ export default class Register extends Component {
           />
         </div>
 
-          <div  className="d-grid gap-2">
-        <button type="submit" className="btn btn-dark btn-lg btn-block">
-          Register
-        </button>
+        <div className="d-grid gap-2 pt-4 ">
+          <button type="submit" className="btn btn-dark btn-lg btn-block">
+            Register
+          </button>
         </div>
 
         <p className="forgot-password text-right">
