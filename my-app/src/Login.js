@@ -36,10 +36,14 @@ export default class Login extends Component {
             </label>
           </div>
         </div>
-
-        <button type="submit" className="btn btn-dark btn-lg btn-block">
+        <div className="d-grid gap-2 pt-4">
+          <button type="submit" className="btn btn-dark btn-lg btn-block">
           Login
         </button>
+
+        </div>
+
+        
       </form>
     );
   }
