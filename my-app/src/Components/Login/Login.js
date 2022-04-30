@@ -28,7 +28,7 @@ export default class Login extends Component {
               id="customCheck1"
             />
             <label className="custom-control-label" htmlFor="customCheck1">
-               Remember me
+              Remember me
             </label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label className="custom-control-label" htmlFor="customCheck1">
@@ -37,9 +37,11 @@ export default class Login extends Component {
           </div>
         </div>
 
-        <button type="submit" className="btn btn-dark btn-lg btn-block">
-          Login
-        </button>
+        <div className="d-grid gap-2">
+          <button type="submit" className="btn btn-dark btn-lg btn-block">
+            Login
+          </button>
+        </div>
       </form>
     );
   }
