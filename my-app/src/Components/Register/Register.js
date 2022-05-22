@@ -1,9 +1,22 @@
 import React, { Component } from "react";
 import "./Register.css";
+import ExtraHeader from "../Header/ExtraHeader";
 
 export default class Register extends Component {
   render() {
     return (
+      <div>
+        <ExtraHeader></ExtraHeader>
+
+      <div className="App">
+      <div className="outer">
+        
+      <div className="bleonaRegister">
+        
+        
+          <div className="inner">
+           
+          
       <form>
         <h3>Register</h3>
 
@@ -49,6 +62,11 @@ export default class Register extends Component {
           Already registered <a href="/Login">log in?</a>
         </p>
       </form>
+      </div>
+      </div>
+        </div>
+      </div>
+      </div>
     );
   }
 }

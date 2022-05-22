@@ -1,9 +1,20 @@
 import React, { Component } from "react";
 import "./Login.css";
+import ExtraHeader from "../Header/ExtraHeader";
 
 export default class Login extends Component {
   render() {
     return (
+      <div>
+        <ExtraHeader></ExtraHeader>
+      
+     <div className="App">
+       <div className="outer">
+      <div className="gresaLogin">
+         
+        
+          <div className="inner">
+            
       <form className="gresa">
         <h3>Log in</h3>
 
@@ -46,6 +57,11 @@ export default class Login extends Component {
           </button>
         </div>
       </form>
+      </div>
+      </div>
+        </div>
+      </div>
+      </div>
     );
   }
 }
